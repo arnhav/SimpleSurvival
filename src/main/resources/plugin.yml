@@ -1,0 +1,12 @@
+name: SimpleSurvival
+version: '${project.version}'
+main: com.github.arnhav.simplesurvival.SimpleSurvival
+api-version: 1.19
+authors: [ Tyrriel ]
+commands:
+  link:
+    description: "Link an item"
+    usage: /link
+  lc:
+    description: "List all loaded chunks"
+    usage: /lc
